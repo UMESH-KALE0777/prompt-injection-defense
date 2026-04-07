@@ -5,7 +5,7 @@ description: >
   (summarize, extract, answer) while adversarial prompt injections
   hidden inside input data attempt to hijack the agent's behavior.
   Tests agent robustness, instruction following, and security awareness.
-author: your-hf-username
+author: Umesh09192
 tags: [security, prompt-injection, adversarial, llm-safety, robustness]
 
 tasks:

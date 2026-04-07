@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "prompt-injection-defense"
+version = "1.0.0"
+description = "OpenEnv environment for prompt injection defense training"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn>=0.29.0",
+    "pydantic>=2.0",
+    "openai>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["openenv-core"]
+
+[tool.openenv]
+name = "prompt-injection-defense"
+version = "1.0.0"
+entry_point = "server:app"
