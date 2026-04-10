@@ -1,14 +1,4 @@
-Set-Content -Path "D:\hf-space\README.md" -Value @"
----
-title: Prompt Injection Defense
-emoji: 🛡️
-colorFrom: red
-colorTo: purple
-sdk: docker
-pinned: false
-tags:
-  - openenv
----
+
 
 # Prompt Injection Defense — OpenEnv
 
